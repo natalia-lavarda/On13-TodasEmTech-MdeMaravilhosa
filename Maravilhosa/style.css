@@ -29,13 +29,64 @@ a {
 
 
 /* HEADER */
+.header {
+    background-image: url(./img/backgroud_header_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+}
 
+.container_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
 
+.header_maravilhosa_img {
+    width: 90%;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
 
+.header_titulo {
+    width: 90%;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 5px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* --- BOTAO --- */
-  
+.header_button {
+    background-color: #7f479B;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.header_button:hover {
+    background-color: #2e1842;
+    color: #fff;
+    transition: background-color .5s;
+}
 
 /*********** HEADER   *********/
 
